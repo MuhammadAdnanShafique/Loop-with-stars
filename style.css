@@ -1,0 +1,62 @@
+body{
+    padding: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    background-color: aqua;
+    font-size: 20px;
+    margin: 10px;
+    border:  solid 2px black;
+    border-style:groove;
+}
+button:hover{
+    background-color: red;
+    border-style: groove;
+    border:  solid 2px yellow;
+}
+input{
+    background-color:whitesmoke;
+    color:black;
+    font-size: 18px;
+    width: 90%;
+    border: solid 2px black;
+}
+.main{
+    width: 90%;
+    background-image: url(pic2.gif);
+    /* background-color:aqua; */
+    padding: 3%;
+    /* border: solid 10px blue; */
+    /* border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px; */
+    display: flex;
+}
+.a{
+    background-color:rgb(43, 229, 229);
+    border: solid 14px blue;
+    border-right: none;
+    /* border-top-left-radius: 100px; */
+    padding: 2%;
+    padding-top: 7%;
+    width: 30%;
+    text-align: center;
+}
+.b{
+    background-color:rgba(255, 255, 255, 0.882);
+    width: 40%;
+    padding: 5%;
+    border-top:  solid blue 14px;
+    border-bottom:  solid blue 14px;
+    font-size: 18px;
+}
+.c{
+    background-color:rgb(43, 229, 229);
+    width: 30%;
+    /* border-bottom-right-radius: 100px; */
+      padding: 3%;
+      padding-top: 7%;
+    border-top:  solid blue 14px;
+    border-bottom:  solid blue 14px;
+    border-right: blue solid 14px;
+    text-align: center;
+}
